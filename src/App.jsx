@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Exam1 from "./components/Exam1";
 import Exam2 from "./components/Exam2";
+import Exam3 from "./components/Exam3";
+import Exam4 from "./components/Exam4";
+import Exam5 from "./components/Exam5";
 //     컴포넌트명       파일명
 
 function App() {
@@ -19,12 +22,15 @@ function App() {
       <h1>Hello world</h1>
     </> */
 
-    <>
-      <button onClick={() => setShowExam(!showExam)}>클릭</button>
+    // <>
+    //   <button onClick={() => setShowExam(!showExam)}>클릭</button>
 
-      {/* showExam이 true 면 화면에 Exam1 컴포넌트 호출하여 랜더링함 */}
-      {showExam && <Exam2 mark="love you" test="Mark Lee" />}
-    </>
+    //   {/* showExam이 true 면 화면에 Exam1 컴포넌트 호출하여 랜더링함 */}
+    //   {showExam && <Exam2 mark="love you" test="Mark Lee" />}
+    // </>
+    // <Exam3 />
+    // <Exam4 />
+    <Exam5 />
   );
 }
 
